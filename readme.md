@@ -5,7 +5,7 @@
 |:-|:-|
 | Space | Calibrate | 
 | Return | Save | 
-| Tab | ToggleAutoCaputre |
+| Tab | ToggleAutoCaputure |
 | BackSpace | Clear | 
 | C | CaptureFrame | 
 
