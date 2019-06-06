@@ -486,7 +486,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 752497122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f14da8b36ac43ef408f240f9a678608a, type: 3}
+  m_Script: {fileID: 11500000, guid: bb922580a05b6bc4d9aef79ddf99450c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   videoCaptureController: {fileID: 710384048}
@@ -574,15 +574,18 @@ MonoBehaviour:
   saveKey: 13
   autoCaptureToggleKey: 9
   clearKey: 8
-  autoCaptureInterval: 3
-  autoCaptureNumber: 15
   audioSource: {fileID: 1091501618}
-  countSound: {fileID: 0}
-  calibrationSound: {fileID: 0}
-  errorSound: {fileID: 0}
+  countSound: {fileID: 8300000, guid: ba9697c89407d244084053c94bbf4009, type: 3}
+  calibrationSound: {fileID: 8300000, guid: 7409d4b595d147649bf4abad070bf1b5, type: 3}
+  errorSound: {fileID: 8300000, guid: e87b6027996669846aa16cca8f32aee9, type: 3}
+  completeSound: {fileID: 8300000, guid: 838a1a25b847e824ca25ecb8b01c4f30, type: 3}
   videoCaptureController: {fileID: 710384048}
   calibrator: {fileID: 1091501616}
   fileName: intrinsic.json
+  autoCalibrationSettingFileName: autoCalibrationSettings.json
+  autoCalibrationSetting:
+    Interval: 3
+    NumberOfMaxImage: 15
 --- !u!82 &1091501618
 AudioSource:
   m_ObjectHideFlags: 0
@@ -679,6 +682,75 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &1114471848
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9141170455917548728, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_Name
+      value: KeySceneController
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141170455917548729, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141170455917548729, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141170455917548729, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141170455917548729, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141170455917548729, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141170455917548729, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141170455917548729, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141170455917548729, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141170455917548729, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141170455917548729, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141170455917548729, guid: 85416ed8bd03ed74ea1f7774d60b0310,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 85416ed8bd03ed74ea1f7774d60b0310, type: 3}
 --- !u!1 &1239650745
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,7 +1051,7 @@ PrefabInstance:
     - target: {fileID: 2765144847703173391, guid: 317a6ad13b3cb40439b0a5a7ac18be55,
         type: 3}
       propertyPath: fileName
-      value: cameraCalibrationSetting
+      value: cameraCalibrationSetting.json
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 317a6ad13b3cb40439b0a5a7ac18be55, type: 3}

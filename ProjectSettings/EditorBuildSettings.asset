@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Calibration.unity
+    guid: 68de361eeba6d5343bf555db88a135bd
+  - enabled: 1
+    path: Assets/Scenes/UndistortedPreview.unity
+    guid: be5fb2f86d8e7da45ba4657a54c0b535
   m_configObjects: {}
