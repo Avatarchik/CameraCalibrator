@@ -7,7 +7,8 @@
 | Return | Save | 
 | Tab | ToggleAutoCaputure |
 | BackSpace | Clear | 
-| C | CaptureFrame | 
+| A | Transition to CalibrationScene | 
+| D | Transition to UndistortedPreviewScene | 
 
 ## Dependencies
 
