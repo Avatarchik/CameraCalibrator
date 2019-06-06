@@ -278,6 +278,16 @@ PrefabInstance:
       propertyPath: videoCaptureSettings.Brightness
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8511956679513598320, guid: 3a7b644f9796d67449b3bc87efd773a1,
+        type: 3}
+      propertyPath: videoCaptureSettings.Width
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 8511956679513598320, guid: 3a7b644f9796d67449b3bc87efd773a1,
+        type: 3}
+      propertyPath: videoCaptureSettings.Height
+      value: 1080
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a7b644f9796d67449b3bc87efd773a1, type: 3}
 --- !u!114 &710384048 stripped
