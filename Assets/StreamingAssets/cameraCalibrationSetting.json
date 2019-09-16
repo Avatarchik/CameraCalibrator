@@ -1,0 +1,22 @@
+[
+  {
+    "TypeName": "BoardType",
+    "FieldName": "boardType",
+    "Value": 2
+  },
+  {
+    "TypeName": "Int32",
+    "FieldName": "sizeX",
+    "Value": 4
+  },
+  {
+    "TypeName": "Int32",
+    "FieldName": "sizeY",
+    "Value": 11
+  },
+  {
+    "TypeName": "Boolean",
+    "FieldName": "drawCorners",
+    "Value": true
+  }
+]
